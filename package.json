@@ -1,0 +1,23 @@
+{
+    "name": "bun-demo",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "preclean": "echo 'preclean'",
+        "clean": "rm -rf dist",
+        "postclean": "echo 'postclean'",
+        "lint": "eslint .",
+        "start": "bun run index.ts"
+    },
+    "devDependencies": {
+        "@types/figlet": "^1.5.6",
+        "bun-types": "^1.0.3",
+        "eslint": "^8.50.0"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "figlet": "^1.6.0"
+    }
+}
