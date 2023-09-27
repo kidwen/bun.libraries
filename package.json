@@ -7,7 +7,7 @@
         "clean": "rm -rf dist",
         "postclean": "echo 'postclean'",
         "lint": "eslint .",
-        "start": "bun run src/index.ts"
+        "start": "bun run --hot src/index.ts"
     },
     "devDependencies": {
         "@types/figlet": "^1.5.6",
